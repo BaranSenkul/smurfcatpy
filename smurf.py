@@ -38,7 +38,7 @@ root.after(5930, create_window_with_text, "WE LOVE", ("bold", 36), root.winfo_sc
 # After 1.6 seconds, create the "WE LIE" window with a larger font at the bottom
 root.after(6700, create_window_with_text, "WE LIE", ("italic bold", 48), root.winfo_screenwidth() // 2 - 100, root.winfo_screenheight() - 150)
 
-image = tk.PhotoImage(file="sumrfcat.png")
+image = tk.PhotoImage(file="smurfcat.png")
 
 def display_image():
     window_image = tk.Toplevel(root)
