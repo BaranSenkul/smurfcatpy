@@ -16,7 +16,7 @@ import threading
 import playsound
 
 def play_sound():
-    playsound.playsound("spectre.mp3")
+    playsound("spectre.mp3")
 
 def create_window_with_text(text, font, x, y):
     window = tk.Toplevel(root)
