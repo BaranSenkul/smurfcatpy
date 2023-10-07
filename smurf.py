@@ -13,7 +13,7 @@ import tkinter as tk
 from tkinter import ttk
 import random
 import threading
-import playsound
+from playsound import playsound
 
 def play_sound():
     playsound("spectre.mp3")
